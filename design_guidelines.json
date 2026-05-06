@@ -1,0 +1,123 @@
+{
+  "theme": "dark",
+  "archetype": "5 (Jewel & Luxury)",
+  "colors": {
+    "background": "#050505",
+    "surface": "#0A0A0A",
+    "surface_light": "#111111",
+    "primary_text": "#F3F4F6",
+    "secondary_text": "#9CA3AF",
+    "accent_primary": "#8B5CF6",
+    "accent_hover": "#A78BFA",
+    "metallic_silver": "#D1D5DB",
+    "border_color": "rgba(255, 255, 255, 0.08)",
+    "glass_background": "rgba(10, 10, 10, 0.6)",
+    "glass_border": "rgba(255, 255, 255, 0.1)"
+  },
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Manrope",
+    "h1": "text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tighter text-white",
+    "h2": "text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white",
+    "h3": "text-xl sm:text-2xl font-medium tracking-tight text-gray-200",
+    "h4": "text-lg font-medium tracking-wide text-gray-300",
+    "body": "text-base leading-relaxed text-gray-400",
+    "overline": "text-xs uppercase tracking-[0.2em] font-semibold text-violet-400"
+  },
+  "layout": {
+    "container_padding": "px-6 sm:px-12 lg:px-24",
+    "section_spacing": "py-24 sm:py-32",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8",
+    "bento_items": {
+      "hero": "col-span-full md:col-span-8 row-span-2",
+      "square": "col-span-full md:col-span-4 row-span-1",
+      "tall": "col-span-full md:col-span-4 row-span-2"
+    }
+  },
+  "surfaces": {
+    "header": "backdrop-blur-xl bg-black/60 border-b border-white/10 z-50 fixed w-full top-0",
+    "card_default": "bg-[#0A0A0A] border border-white/5 rounded-2xl overflow-hidden group hover:border-violet-500/30 transition-colors duration-300",
+    "glass_panel": "backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl",
+    "footer": "bg-black py-20 sm:py-32 border-t border-white/10"
+  },
+  "buttons": {
+    "primary": "bg-violet-600 hover:bg-violet-500 text-white font-medium px-8 py-4 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] flex items-center justify-center gap-2",
+    "secondary": "bg-transparent border border-white/20 hover:border-white/50 text-white font-medium px-8 py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2",
+    "whatsapp_sticky": "fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#1EBE53] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center"
+  },
+  "animations": {
+    "hover_card": "hover:-translate-y-1 hover:shadow-2xl hover:shadow-violet-900/20",
+    "image_zoom": "group-hover:scale-105 transition-transform duration-700 ease-out",
+    "fade_in_up": "initial opacity-0 translate-y-8, animate opacity-100 translate-y-0 duration-700 ease-out"
+  },
+  "icons": {
+    "library": "@phosphor-icons/react",
+    "weight": "duotone"
+  },
+  "media": {
+    "brand_logo": "https://customer-assets.emergentagent.com/job_c7e705f1-a809-43e6-8565-5401bed10635/artifacts/qka1maf0_Artonauts%20Street%20logo%20design.png",
+    "images": {
+      "hero_background": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/8e3f7a386511ce5f9fb20406abb59c1f8e20a53cc044d15f384f7782420778eb.png",
+      "texture_background": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/2cd30da47104a38a44ee7dc65a010495133152ef1fa10377622f30bd28e01152.png",
+      "services": {
+        "custom_sculptures": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/ecf14671d8d843c23c21d96d7e03907363a79b020e677e37c5caf9014f014bf6.png",
+        "murals_wall_art": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/529bdca94ab1e66c83dee8081c465d9eb965b93fe2fcfed5f711242cbd288d3b.png",
+        "fountains": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/385950522c886169a805d224b1029f620f034f11b0c4ae20b9abb7e3533ebd15.png",
+        "architectural_elevations": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/6f2f9d0e1d25419e480ecee7d8880d919af6ab61ec15750ff5d8d40a828a9c62.png",
+        "metal_scrap_art": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/3db724dc63c097d2138a2ac74d5cc88cfbbe43b423786e8f84a7f014583e3df7.png"
+      },
+      "about_workshop": "https://static.prod-images.emergentagent.com/jobs/c7e705f1-a809-43e6-8565-5401bed10635/images/f08fadd9072749ac203e89ba146c1f898b0cf57a43628178dfb0f7a71aa75ddb.png",
+      "portfolio_gallery": [
+        "https://images.unsplash.com/photo-1767950470198-c9cd97f8ed87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcmNoaXRlY3R1cmUlMjBuaWdodHxlbnwwfHx8fDE3NzYxNjk5NTh8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1765046160589-9397f964bf01?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBhcmNoaXRlY3R1cmUlMjBuaWdodHxlbnwwfHx8fDE3NzYxNjk5NTh8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1764885518414-d0f32fa8343a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBhYnN0cmFjdCUyMHNjdWxwdHVyZXxlbnwwfHx8fDE3NzYxNjk5NTh8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1759803529014-6616e978d0ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhYnN0cmFjdCUyMHNjdWxwdHVyZXxlbnwwfHx8fDE3NzYxNjk5NTh8MA&ixlib=rb-4.1.0&q=85"
+      ]
+    }
+  },
+  "components": {
+    "header": {
+      "structure": "Fixed top navigation with glassmorphism. Left: Logo. Center: Links (hidden on mobile). Right: Primary CTA 'Discuss Your Project' & Mobile Menu toggle.",
+      "behavior": "Transparent at top, backdrop-blur-xl on scroll."
+    },
+    "hero": {
+      "structure": "Full height relative section. Background: media.images.hero_background with bg-black/60 overlay and from-black/90 via-black/40 to-black/10 gradient. Content: Overline 'PREMIUM ARCHITECTURAL ART', Massive H1 'Transforming Spaces into Masterpieces', Subtitle text. CTAs: 'Get Proposal on WhatsApp' (Primary) and 'View Portfolio' (Secondary).",
+      "layout": "Flex column, vertically centered, left aligned or centered based on preference. Let's use left-aligned for an editorial look."
+    },
+    "services": {
+      "structure": "Bento Grid Mode A. 'Custom Sculptures' gets col-span-full md:col-span-8 row-span-2 (Hero size), others take col-span-4. Each card contains its respective image from media.images.services with group-hover:scale-105 zoom effect. Content overlay with gradient bg-gradient-to-t from-black/90 to-transparent. Cards must have 1px border-white/10."
+    },
+    "capability_about": {
+      "structure": "Split section: Left side Typography (H2 + body) detailing 'Why Artonauts', Right side split into stats (e.g., '500+ Installations', '10+ Years') and image media.images.about_workshop. Use texture_background as subtle overlay."
+    },
+    "process": {
+      "structure": "Vertical timeline with a glowing left border (border-l-2 border-violet-900/50). Nodes are metallic circles (bg-black border border-violet-500). Steps: Consultation, Concept, Design, Fabrication, Finishing, Delivery/Installation."
+    },
+    "portfolio": {
+      "structure": "Masonry grid or CSS columns layout of media.images.portfolio_gallery and other service images. Hover overlays showing 'View Project'."
+    },
+    "trust": {
+      "structure": "Logo marquee of high-end clients or subtle text testimonials wrapped in glassmorphism cards."
+    },
+    "faq": {
+      "structure": "Shadcn Accordion component. Dark theme overrides: bg-transparent border-white/10 text-white."
+    },
+    "contact": {
+      "structure": "Split section. Left side: Direct contact info, WhatsApp CTA, 'Click-to-Call'. Right side: Lead capture form inside a card_default container. Form inputs: bg-black/50 border-white/10 focus:border-violet-500 text-white."
+    },
+    "footer": {
+      "structure": "Massive bottom padding. Top area: large 'ARTONAUTS' text. Grid of links, social icons (Instagram, Facebook). Bottom area: Copyright, terms."
+    }
+  },
+  "instructions_to_main_agent": [
+    "You are building a premium luxury marketing site. Strict adherence to the Dark Theme and 'Cosmic Violet / Metallic Silver' palette is mandatory.",
+    "Use @phosphor-icons/react for all icons. Install via: `yarn add @phosphor-icons/react`.",
+    "Do NOT use Inter for headings. Use 'Outfit'. You may need to add it via Google Fonts.",
+    "All cards must have a 1px border border-white/5 or border-white/10 to stand out against the black background.",
+    "Ensure the hero background image has a dark gradient overlay so the white text is readable.",
+    "Implement the 'Sticky WhatsApp Button' globally so it sits at the bottom right corner.",
+    "The Services section MUST use the specified Bento Grid layout with varying spans for visual interest.",
+    "The Contact Form inputs should not have a white background. Use bg-[#0A0A0A] or bg-transparent with white/10 borders.",
+    "Add data-testid to all interactive elements (buttons, links, form inputs)."
+  ]
+}
